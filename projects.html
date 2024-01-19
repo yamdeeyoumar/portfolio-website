@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Umer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="index.html" style="float: left"><img src="images/logo.svg" alt=""></a>
+<ul>
+    <li>
+        <a href="projects.html"><img src="images/projects.svg" alt=""><br>Projects</a>
+    </li>
+    <li>
+        <a href="resume.html"><img src="images/resume.svg" alt=""><br>Resume</a>
+    </li>
+    <li>
+        <a href="index.html"><img src="images/home.svg" alt=""><br>Home</a>
+    </li>
+</ul>
+<div class="wrapper">
+<h1>
+projects:
+</h1>
+<h2><a href="#cody">    cody    </a></h2>   ---  <h2><a href="#workbench">   workbench   </a></h2>   ---   <h2><a href="#esp32">  esp32-cam for printer   </a></h2>  ---   <h2><a href="#tec">   thermoelectric car  </a></h2>   ---   <h2><a href="#tmg"> textile machinery gearbox   </a> </h2>
+</div>
+<div>
+
+<!-- CODY --><div id="imggrp"><u><h3 id="cody">cody</h3></u></div>
+<h4>le head shell</h4>
+
+<div id="imggrp">
+<img id="rep" src="images/head (surface)/WhatsApp Image 2024-01-15 at 22.50.01_fd3ab442.jpg" >
+<img id="rep"  src="images/head (surface)/WhatsApp Image 2024-01-15 at 22.50.01_d3025b9f.jpg" >
+<a href="https://www.theverge.com/2016/4/28/11528206/samsung-personal-assistant-robot-otto"><img id="rep"  src="images/otto.jpg" ></a>
+</div>
+<p>
+Cody's head's main structure comprised of aluminum extrusion when I joined the club; the head was massive and aesthetically displeasing w.r.t. Anas (Club CEOs) vision.
+Cody was supposed to mimic Samsung's Otto and have smooth lines. This lead to an overhaul of the existing design and instead working towards an entirely 3D printed head.
+</p>
+<div id="imggrp">
+<img id="rep" src="images/head (surface)/IMG-20240115-WA0015.jpg" >
+<img id="rep"  src="images/head (surface)/IMG-20240115-WA0020.jpg" >
+<img id="rep"  src="images/head (surface)/IMG-20240115-WA0018.jpg" >
+</div>
+<div id="imggrp">
+<img id="rep" src="images/head (surface)/IMG-20240115-WA0012.jpg" >
+<img id="rep"  src="images/head (surface)/IMG-20240115-WA0013.jpg" >
+<img id="rep"  src="images/head (surface)/IMG-20240115-WA0013.jpg" >
+</div>
+<div id="imggrp">
+<img id="rep" src="images/head (surface)/IMG-20240115-WA0019.jpg" >
+<img id="rep"  src="images/head (surface)/IMG-20240115-WA0017.jpg" >
+</div>
+<p>
+My first task when I joined Nanostride was to surface model an "aesthetically pleasing" shell that would sit over Cody's Aluminum skull.
+As can be seen in the above photos multiple iterations of shells were modelled, in order to encompass the Aluminum structure. Each row
+of images displays successive model iterations; we see Cody evolving from a neanderthal to a modern day homo sapien.
+</p>
+<div id="imggrp">
+<img id="rep" src="images/head (surface)/IMG-20240115-WA0010.jpg" >
+</div>
+<p>
+Cody is ~6 ft tall; the size of the shell designed was constrained by the size of the extrusion-frame. 
+The final skull + head shell looked extremely disproportionate with respect to the rest of Cody.
+The components housed by the extrusion-frame were much lighter than the frame;
+hence the design team set out to design a 3D printable version of the head with a much smaller volume.
+The main size constraint in the head now was the large screen that acts as Cody's eyes and the rest of the head would be modelled to mimic human proportions.</p>
+
+<h4>le head (3d printable)</h4>
+
+<div id="imggrp">
+<img id="xlpic" src="images/head (surface)/IMG-20240115-WA0021.jpg" >
+</div>
+<p>
+Picture shown to show overall decrease in volume in comparison to the extrusion-frame. 
+This picture gives only half the picture; greater volume savings were also obtained by having more natural curves
+at the rear and front of Cody's skull.
+</p>
+
+<div id="imggrp">
+<img id="xllpic" src="images/head+mounts.png" >
+</div>
+<p>
+Once the overall curvature was satisfacory; mounts were designed to pickup the screen, 
+mic, camera, neck, sensors, and multiple slices of the head. Cody's face was also sliced from the rest of the body. 
+</p>
+
+<div id="imggrp">
+<img id="rep" src="images/head (surface)/IMG-20240115-WA0023.jpg" >
+<img id="xlpic" src="images/head (surface)/headv2_elegant.jpg" >
+<img id="rep" src="images/head (surface)/mounts_printed.jpg" >
+</div>
+<p>
+Here are renders of the head and a physical print of Cody_head_v1 and the mounts.
+These mounts had small extrusion that press fit into holes in the head and an adhesive was used to secure them.
+</p>
+
+<div id="imggrp">
+<img id="xllpic" src="images/head (surface)/codyv1_rendered.jpg" >
+</div>
+<p>
+<b>Voilà!</b> I wasn't able to find many pictures of the v1 head assembled with all components inside it; but a lot of work was still to be done in improving the head. 
+</p>
+
+<h4>le head (3d printable) (improvements)</h4>
+
+<div id="imggrp">
+<img id="xlpic" src="images/codyv2_slice.jpg" >
+<img id="xlpic"  src="images/codyv2_mounts.jpg" >
+</div>
+<p>
+The new slice for the face is flatter and allows for the larger piece to be printed without further segmentation on our Bambu printer.
+Quality of life updates made to all mounts inside; new mount for Raspberry Pi. Any holes on the head were filled up; the mounts are now printed with the head.
+</p>
+
+<div id="imggrp">
+<img id="xlpic" src="images/resin_face.jpg" >
+<img id="xlpic"  src="images/assembled_cody_head.jpg" >
+</div>
+<p>
+The front face is resin printed; the picture on the right is a fully assembled cody head.
+</p>
+
+<h4>le shell</h4>
+
+<div id="imggrp">
+<img id="rep" src="images/shell/WhatsApp Image 2024-01-17 at 17.51.12_f7abe0ca.jpg" >
+<img id="rep" src="images/shell/WhatsApp Image 2024-01-17 at 17.51.12_3ed769c5.jpg" >
+</div>
+<p>
+Here are some renders of what the shell looked like when I joined Nanostride. This was when Cody had an additional degree of freedom at its waist using a turntable bearing.
+We either make humanoid legs or we let Cody be a front-desk assistant as intended; no one is seeing Cody's hips. All in or no in
+<br><br> The shell covers the central extrusion that supports the neck, head and Cody's brain-box.
+</p>
+
+<div id="imggrp">
+<img id="xlpic" src="images/shell/v1.jpg" >
+<img id="xlpic" src="images/shell/v2.PNG" >
+<img id="xlpic" src="images/shell/v3.PNG" >
+</div>
+<p>
+Left-Right are evolutions of the overlap / joins between the various massive slices
+</p>
+
+
+<div id="imggrp">
+<img id="xlpic" src="images/shell/IMG-20240117-WA0022.jpg" >
+</div>
+<p>
+Slices being printed on the WASP
+</p>
+
+<div id="imggrp">
+<img id="xlpic" src="images/shell/IMG-20240117-WA0030.jpg" >
+<img id="xlpic" src="images/shell/base.jpg" >
+<img id="xlpic" src="images/shell/IMG-20240117-WA0040.jpg" >
+<img id="xlpic" src="images/shell/painted.jpg" >
+</div>
+<p>
+All slices and bottom plate printed and assembled around extrusion; final image is the shell painted
+</p>
+
+<div id="imggrp">
+<img id="xllpic2" src="images/shell/render_slice.png" >
+</div>
+<p>
+Render of cross-section of the assembled slice
+</p>
+
+
+<h4>le slew-stepper actuator</h4>
+<div id="imggrp">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5o4Fj8OxkB8?si=5zlLJ-iOeH15eEdG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+<p>
+The basic concept for the parametric design of the slew-bearing was adopted from this awesome video; we just modified the fixed and mobile rings to work with our neck mechanism.
+</p>
+
+<div id="imggrp">
+<img id="xllpic2" src="images/neck/ass.png" >   
+</div>
+<p>
+Exploded layout of all parts in slew-stepper actuator sub-assembly; driven by a 1:1 gear on the stepper. We also ordered a planetary gearbox from AliExpress with a 1:13.76 reduction; in the first iteration we 3D printed the gearbox but it was super loud.</p>
+
+<div id="imggrp">
+<video width="200" height="400" controls><source src="images/neck/slew_og.mp4"></video>  
+</div>
+<p>
+First view of the slew in action; keep in mind with a similar reduction and the same stepper we were able to drive the Aluminum-extrusion based head so we had no doubts this would be able to drive our new design
+</p>
+
+<div id="imggrp">
+<video width="200" height="400" controls><source src="images/neck/slew quiet.mov"></video>  
+</div>
+<p>
+Updated video of finalised actuator with Resin printed parts and this lost a few more decibels under no load.
+</p>
+
+
+<h4>le servo plate + gas springs</h4>
+<div id="imggrp">
+<img id="xllpic2" src="images/neck/sp.png" >   
+</div>
+<p>
+<b>Probably my arch nemesis during my experience at Nanostride.</b> You have seen this part in discussions of other parts.
+</p>
+
+<div id="imggrp">
+<img id="xlpic2" src="images/neck/spevol.png" >
+</div>
+<p>
+Left-Right (v1 to v4) are evolutions of the servo plates through multiple testing phases. V1 was never prototyped; instead was used to establish the various link lengths and positions.
+<br> <br>
+V2 includes the addition of stronger mounts to the entire structure but shows a major weakpoint; the top of the central axis where the load bearing u-joint sits has layer lines parallel to the forces and sheared the first time we tested it. And also a lack of ribs for the servo mounts.
+<br> <br>
+In V3 the central shaft was printed separately with layer lines perpendicular to the force for testing purposes. Now that structurally a base design was found; the aesthetic was cleaned up and a housing for u-joint added for additional support in V4.
+</p>
+<div id="imggrp">
+<video width="200" height="400" controls><source src="images/neck/u-joint gone right.mov"></video>  
+</div>
+<!-- Can write about ball-joint detour-->
+
+
+
+
+<!-- Workbench --><div id="imggrp"><u><h3 id="workbench">workbench</h3></u></div>
+
+<div id="imggrp">
+<img id="rep2" src="images/desk.png" >
+</div>
+<p>
+I have a very small Amazon desk at home, its large enough to house my keyboard, monitor and mouse space.
+I needed extra space for my tinkering i.e. components, tools and machines. What better way to utilise post-exam downtime than investing in my setup.
+</p>
+
+<h4>cost $$$</h4>
+<div id="imggrp">
+<img id="xlpic" src="images/workbench/cost1.png" >
+<img id="xlpic"  src="images/workbench/cost2.png" >
+<img id="xlpic"  src="images/workbench/cost3.png" >
+</div>
+<p>
+Raw material + hardware amounts upto <b>~125 Canadian Dollars</b>
+</p>
+
+<h4>bom</h4>
+<div id="imggrp">
+<img id="xllpic2" src="images/workbench/bom.png" >
+</div>
+
+<h4>my assembly process :)</h4>
+<div id="imggrp">
+<video width="400" height="400" controls><source src="images/workbench/1_2.mp4"></video>
+</div>
+<h4>note:</h4>
+<p>
+<italic>The legs are  two 2x4 glued and screwed together, see below:</italic>
+</p>
+<div id="imggrp">
+<img id="xlpic" src="images/workbench/leg_prep.jpg" >
+<img id="xlpic"  src="images/workbench/leg_strengthener.jpg" >
+</div>
+
+<!-- ESP-32 Cam --><div id="imggrp"><u><h3 id="esp32">esp32-cam for printer</h3></u></div>
+<p>My 3D printer is down in my basement, I also made the noob mistake of ordering two rolls of ABS for my first 3D printing adventures; in the beginning large parts would warp and fail like crazy. This project was just so that I could remotely monitor my prints from my room on the first floor.
+<br><br><b>Future project upgrades:</b> Octo4a on old S7 edge or Video stream over web server so that I can access it globally.
+</p>
+<p>
+For a stable video stream it is recommended to run the ESP32-CAM off of 5V; initially I was going to run them off batteries. But then I remembered something Augusto was doing for Cody; most of Cody's component run using the same 24V 20A DC PSU that my 3D printer came with.
+To 'step-down' the DC voltage to power smaller components he used a buck converter. I order a 5V output buck converter to power the ESP32-CAM.
+</p>
+<div id="imggrp">
+<img id="xlpic" src="images/esp32cam/Xd8D6Uw.png" >
+</div>
+<p>
+To program the ESP32-CAM board, it came with an ESP32-CAM-MB board. This board was very unreliable for me and created unnecessary problems that were hard for me tackle given my inexperience with electronics.
+Instead I ordered a USB-TTL adapter; and the programming was smooth sailing from there. The sample code for the ESP32/Video works flawlessly for our use case.
+</p>
+<div id="imggrp">
+<img id="xlpic" src="images/esp32cam/mb.png" >
+<img id="xlpic" src="images/esp32cam/usb-ttl.png" >
+</div>
+<p>
+Next, I designed an enclosure for the CAM + Antenna. This is a single part with split bodies, so unfortunately no fancy exploded views for now.
+</p>
+<div id="imggrp">
+<img id="xllpic2" src="images/esp32cam/render.png" >
+</div>
+<p>
+<b>Voilà!</b> a render of the enclosure.
+<br><a href="https://github.com/yamdeeyoumar/esp32-cam-enclosure.git">Click Here for STLs</a>
+</p>
+<div id="imggrp">
+<img id="xlpic" src="images/esp32cam/1.jpg" >
+<img id="xlpic" src="images/esp32cam/2.jpg" >
+<img id="xlpic" src="images/esp32cam/3.jpg" >
+</div>
+<p>
+See below the feed available over my Local Network:
+</p>
+<div id="imggrp">
+<img id="xlpic" src="images/esp32cam/4.jpg" >
+</div>
+<p>
+Now I just need to find a better viewing point, some lights and also solder the female wires instead of loosely plugging them into the header.
+</p>
+
+<!-- Thermoelectric Car --><div id="imggrp"><u><h3 id="tec">thermoelectric car</h3></u></div>
+<p>
+This was a fun project for one of my university courses; would have done much more testing and prototyping if I wasn't enrolled in 15 credits that semester.
+<br><br><b>Project statement:</b> Make a vehicle powered by a thermoelectric generator (Peltier device) that runs of a heat source, must run 1m on a flat surface. Bonus marks if it climbs the 1m over the 20 degree incline.
+<br><br> The peltier used was a TEC-40-39-127, a heatsink was used to carry heat way from the peltier, a regular DC geared motor was used to drive the rear wheels with a 1:10 reduction.
+</p>
+
+<div id="imggrp">
+<img id="xlpic" src="images/tec/tec.jpg" >
+</div>
+<p>
+In iteration 1 above, we were able to obtain ~1.3V consistently but it required pushing the icepack/cold sink with the heatsink. Copper sheet and thermal paste were used as inetrface between peltier and any heating / cooling element.
+The blue thread did not provide ample pressure and a drop off in voltage was observed once we let go. The housing was 3D printed.
+</p>
+
+<div id="imggrp">
+<img id="xlpic" src="images/tec/tec2.jpg" >
+</div>
+<p>
+In iteration 2 above, peltier slid in front of the housing and we had a cardboard chassis. The pink part acts as cold reservoir for the cold side of the peltier. But I wasn't able to waterproof the design and had to move away from it.
+</p>
+
+<div id="imggrp">
+<img id="xlpic" src="images/tec/WhatsApp Image 2023-11-20 at 00.56.04_105a0663.jpg" >
+</div>
+<p>
+In iteration 3 above, I found a small aluminum box at home in, i cut a square hole to the size of the peltier and hot glued the peltier to the cold reservoir, this design was the most leak proof and kept the peltier's cold side ice cold. The peltier got so called that it took a whole minute for the candle to create a temperature differential across the peltier now. Xd8D6Uw
+A constant 1.6V was obtained from this setup once the max differential was attained.
+</p>
+
+<h4>the thermoelectric car in action:</h4>
+<div id="imggrp">
+<video width="400" height="400" controls><source src="images/tec/tec3.mp4"></video>
+</div>
+<p>
+<italic>Woohoo! That is a passing grade guaranteed.</italic> Unfortunately, it was unable to climb the ramp.
+After this video, I bent one of the axles during testing and did not have a breakup axle; this caused the car to steer to the left.
+</p>
+
+<!-- Textile Machinery Gearbox --><div id="imggrp"><u><h3 id="tmg">textile machinery gearbox</h3></u></div>
+<div id="imggrp">
+<img id="xllpic2" src="images/gearbox/1.png" >
+</div>
+<p>
+<b>Project statement:</b>
+<br>3 perpendicular output axis, 1 input motor, 3 modes: during each mode power is transmitted through 2 of the outputs for a given time and at a given speed. Parameters of each output and input are provided. 
+I cannot explicitly outline all parameters since this was a project for university and might be reused in upcoming semesters.
+<br><br> <b>My main tasks throughout the course included:</b> Gear Design (Helical for parallel shaft transmission and bevels for perpendicular shaft transmission), Bearing Selection and Cost Analysis.
+<br><br>The design included a dogbox inspired transmission with a custom clutch. We were able to get a working prototype by end of semester.
+<br><br><a href="https://excalidraw.com/#json=Li_CLZ4-FtF7tRhtHf-Kh,6Qtp3lSC_C0b-ZLHrSS-qA">Click here</a> for a rough flow-based work of the helical gear designs. I love organising my thoughts using excalidraw for such work. Excel sheets were made with all the corresponding formulas just to save time on iterative calculations.
+<br><br><a href="https://github.com/yamdeeyoumar/textile-gearbox.git">Click here</a> for sample snapshots from excel files.
+<div id="imggrp">
+<video width="160" height="329" controls><source src="images/gearbox/wdrill_ann.mp4"></video>
+</div>
+</p>
+</div>
+</body>
+</html>
