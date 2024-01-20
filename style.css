@@ -8,9 +8,6 @@ body{
     background-image: radial-gradient(ellipse at center,#DADEE9,#FEFEFE);
 }
 
-#unfloated-container{
-  width: 1000px;
-}
 .wrapper{
 margin: 0 auto;
 width: 95%;
