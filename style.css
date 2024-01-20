@@ -6,6 +6,7 @@
 }
 body{
     background-image: radial-gradient(ellipse at center,#DADEE9,#FEFEFE);
+    overflow-x: hidden; /*Usman: I think one of your elements had a margin greater than body width at smalller screens. Which resulted in there being a horizontal scrollbar and zoomed in when viewed on mobile. this has fixed the overflowing horizontal space. test now if it works?*/
 }
 
 .wrapper{
@@ -117,3 +118,5 @@ h5 {
   padding: 15px;
   font-style: italic;
   }
+
+  
