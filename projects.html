@@ -386,39 +386,39 @@ I cannot explicitly outline all parameters since this was a project for universi
         <p>Solo12 has a very compact and lightweight design which imposes dimensional constraints on the choice of drive. All joints, except the knee, can be directly driven, reducing the need to source AT3 timing belts, pulleys and associated hardware.</p>
         <p>Alternative drive mechanism are explored in order to find a more accessible approach to quadruped joints i.e. in this case the cycloidal drive is fully 3D printed and only requires standard bearings.</p>
         <p>A FDM 3D printed cycloidal drive was initially designed to fit in a 5cmx5cmx5cm bounding box. At this scale, small dimensional variances introduce backlash into the cycloidal drive. To get a better understanding of the tolerances; an open cage cycloidal drive was prototyped and tested.</p>
-        <h4 id="prototype-1">Prototype #1</h2>
-        <h5 id="3d-prints">3D Prints</h3>
+        <h4 id="prototype-1">Prototype #1</h4>
+        <h5 id="3d-prints">3D Prints</h5>
         <div id="imggrp"><img loading="lazy" id="xllpic" src="/images/cycloidal/proto1part.jpg" alt="image"></div>
-        <h4 id="in-action-barely-">In Action (barely)</h3>
+        <h4 id="in-action-barely-">In Action (barely)</h4>
         <div id="imggrp"><iframe width="560" height="315" src="https://youtube.com/embed/QVna_XHsR04" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
         
         <p>Main problems with this prototype:
         The cycloidal disk can be heard grinding against the rollers on the fixed plate even though the disk was toleranced for clearance. </li>
         The 1mm eccentricity of the disk with relation to the center of fixed part of the drive and was tested for next.</li>
         </p>
-        <h4 id="prototype-2">Prototype #2</h2>
+        <h4 id="prototype-2">Prototype #2</h4>
         <p>For the next iteration of the prototype, adjustments were made in CAD as follows:
         3 sets of cycloidal disks were printed with each cycloidal profile shaving 0.1mm from the last, in addition to larger clearance tolerances; </li>
         6 shafts were printed with each diameter increasing by 0.1mm from 1.0mm to 1.5mm; </li>
         the rollers were scrapped and replaced by a cycloidal profile on the fixed housing.</li>
         </p>
-        <h5 id="3d-prints">3D Prints</h3>
+        <h5 id="3d-prints">3D Prints</h5>
         <div id="imggrp"><img loading="lazy" id="xllpic" src="/images/cycloidal/proto2part.jpg" alt="image"></div>
-        <h5 id="cad-mechanism">CAD Mechanism</h3>
+        <h5 id="cad-mechanism">CAD Mechanism</h5>
         <div id="imggrp"><img loading="lazy" id="xllpic" src="https://i.imgur.com/VbzoOd5.gif" alt="image"></div>
         <div id="imggrp"><img loading="lazy" id="xllpic" src="https://i.imgur.com/pLFDsca.gif" alt="image"></div>
-        <h5 id="disassembly">Disassembly</h3>
+        <h5 id="disassembly">Disassembly</h5>
         <div id="imggrp"><iframe width="560" height="315" src="https://youtube.com/embed/x-ljx1ZIHF4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
         
-        <h4 id="9-1-reduction">9:1 Reduction</h3>
+        <h4 id="9-1-reduction">9:1 Reduction</h4>
         <div id="imggrp"><iframe width="315" height="560" src="https://youtube.com/embed/TmRMvM5_DZE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
         
         <p>Having a single cycloidal disk introduces a lot of vibrations into the drive, so a general recommendation is to have a second cycloidal disk with its cam offset by 180 degrees. This in turn halves the load pin diameter! The third prototype was designed with these changes in mind.</p>
-        <h4 id="prototype-3">Prototype #3</h2>
+        <h4 id="prototype-3">Prototype #3</h4>
         <div id="imggrp"><img loading="lazy" id="xllpic" src="/images/cycloidal/proto3outline.png" alt="image"></div>
-        <h5 id="3d-prints">3D Prints</h3>
+        <h5 id="3d-prints">3D Prints</h5>
         <div id="imggrp"><img loading="lazy" id="xllpic" src="/images/cycloidal/proto3parts.jpg" alt="image"></div>
-        <h5 id="assembled-camshaft">Assembled Camshaft</h3>
+        <h5 id="assembled-camshaft">Assembled Camshaft</h5>
         <div id="imggrp"><img loading="lazy" id="xllpic" src="/images/cycloidal/assembledcamshaft.jpg" alt="image"></div>
         <p>After assembly, the drive was tested for friction, noise and cycle tested for wear. The load during testing was 2 kgs at 1.75cm from the drive&#39;s center, resulting in a torque of <code>0.34 Nm</code> which is slightly higher than the stall torques listed on the MN4004 <a href="https://store.tmotor.com/product/mn4004-kv300-motor-antigravity-type.html">BLDC website</a>. This is still ~8x lower than the maximal output torque expected from the solo12 actuator (~2.7Nm), but is closer to torque values during resting / trotting gait.</p>
         <p><strong>First, to verify the working of the drive, it was hand driven:</strong></p>
@@ -434,9 +434,9 @@ I cannot explicitly outline all parameters since this was a project for universi
         
         
         <p>After about an hour of intermittently cycling with the drill, the 3D printed discs started wearing at the profile, forming ABS powder and a lot of backlash is observed in the drive.</p>
-        <h4 id="current-drive-cost-">Current drive cost:</h3>
+        <h4 id="current-drive-cost-">Current drive cost:</h4>
         <p>
-        <table>
+        <table class="center">
         <thead>
         <tr>
         <th>Parts</th>
@@ -477,7 +477,7 @@ I cannot explicitly outline all parameters since this was a project for universi
         </tbody>
         </table>
         </p>
-        <h4 id="conclusion">Conclusion</h2>
+        <h4 id="conclusion">Conclusion</h4>
         <p>This exercise helped the mechanical team better understand the long term drawbacks of a 3D printed drive at the aforementioned scale. The cycloidal drive quickly wears down and loses alot of its favorable properties. Quick way to reduce friction in the drive would be to replace the lobes of the cycloidal profile against which the disk moves with rollers but this brings with it additional hardware costs. One could also have multiple cycloidal disks offset by smaller angles but this would keep decreasing the load pin diameter to a point where it would be impossible for the pins to be structural!</p>
         <p>Further explorations into more accessible alternatives to the dual-stage timing belt reduction will also be conducted in the near future. :)</p>
     </p>
